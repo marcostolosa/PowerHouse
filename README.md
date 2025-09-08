@@ -2,7 +2,6 @@
 
 PowerHouse is a C++ DLL that hosts the PowerShell engine directly through COM interop, allowing applications to execute PowerShell commands without launching powershell.exe. The DLL provides two primary entry points for PowerShell execution, supports colorful console output, and can execute scripts from base64-encoded data files.
 
-![PowerHouse Banner](https://i.imgur.com/placeholder.png)
 
 ## Features
 
@@ -114,4 +113,5 @@ $base64 | Out-File -FilePath "script.dat" -Encoding ascii
 - Handles both standard output and error streams
 - Implements proper cleanup of COM resources
 - Uses anime character names for classes (Naruto, Goku)
+
 
