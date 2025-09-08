@@ -115,15 +115,3 @@ $base64 | Out-File -FilePath "script.dat" -Encoding ascii
 - Implements proper cleanup of COM resources
 - Uses anime character names for classes (Naruto, Goku)
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Author
-
-Created by Ishan Saha
-
-## Acknowledgments
-
-- PowerShell Team for their System.Management.Automation namespace
-- Contributors to the ATL and Windows COM libraries
